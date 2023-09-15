@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dice Game</title>
+</head>
+
+<body class="py-3">
+    
+         <p class="hidden text-center" id="winner"> </p>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 text-center mb-2">
+                    <img src="images/5.png" class="diceImg" alt="">
+
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="player player1 player--active  shadow p-4 text-center rounded-2">
+                        <div class="m-b">
+                            <h2>Player 1</h2>
+                            <span class="player-score" id="player1-score">
+                                0
+                            </span>
+                        </div>
+                        <div class="current-score-box box1 box--active py-2" >
+                            <h3>current</h3>
+                            <span id="current1">0</span>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="col-6 col-md-4">
+                    <div class="player player2 shadow p-4 text-center rounded-2">
+                        <div class="m-b">
+                            <h2>Player 2</h2>
+                            <span class="player-score" id="player2-score">
+                                0
+                            </span>
+                        </div>
+                        <div class="current-score-box box2 py-2">
+                            <h3>current</h3>
+                            <span id="current2">0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10 col-md-8 text-center mt-5">
+                    <div class="row justify-content-between  ">
+                        
+                        <div class="col-6 col-md-3 mb-3  ">
+                            <button class="my-btn  btn-roll py-2 px-3 rounded-2 "><i class="fa-solid fa-dice"></i> Roll Dice</button>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3 ">
+                            <button class="my-btn btn-hold py-2 px-3 rounded-2 "><i class="fa-solid fa-plus"></i> Hold</button>
+                        </div>
+                        <div class="col-12 col-md-3 mb-3  ">
+                            <button class="my-btn btn-new py-2 px-3 rounded-2  "><i class="fa-solid fa-arrows-rotate"></i> New Game</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+        
+         
+    </main>
+
+
+<script src="js/style.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

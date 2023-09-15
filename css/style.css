@@ -1,0 +1,70 @@
+body {
+   background-color: #028090;
+  height: 100vh;
+  box-sizing: border-box;
+  color: white;
+}
+.hidden {
+visibility: hidden;}
+img {
+  width: 5rem;
+}
+.player {
+  background-color: #00a896;
+}
+.current-score-box {
+  background-color: white;
+  color: #00a896;
+  width: 50%;
+  border-radius: 5px;
+  margin: 48px auto;
+}
+.current-score-box span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.player--active {
+  background-color: white;
+  color:#00a896 ;
+ }
+ .box--active{
+  background-color: #00a896;
+  color: white;
+ }
+.my-btn {
+ 
+  background: none;
+  border: none;
+   text-transform: uppercase;
+  cursor: pointer;
+  background-color: #00a896;
+  color: white;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+.my-btn::first-letter {
+  font-size: 1.4rem;
+  margin-right: 0.3rem;
+}
+.my-btn:active {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.player-score {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#winner {
+  background-color: #264653;
+  /* background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
+    padding: 1rem 2rem;
+  font-weight: bold;
+  font-size: 22px;
+}
+.player-winner {
+  background-color: #264653;
+  /* background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
+}
+.player h2 {
+  font-size: 33px;
+}
