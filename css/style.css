@@ -1,11 +1,12 @@
 body {
-   background-color: #028090;
+  background-color: #028090;
   height: 100vh;
   box-sizing: border-box;
   color: white;
 }
 .hidden {
-visibility: hidden;}
+  visibility: hidden;
+}
 img {
   width: 5rem;
 }
@@ -25,17 +26,16 @@ img {
 }
 .player--active {
   background-color: white;
-  color:#00a896 ;
- }
- .box--active{
+  color: #00a896;
+}
+.box--active {
   background-color: #00a896;
   color: white;
- }
+}
 .my-btn {
- 
   background: none;
   border: none;
-   text-transform: uppercase;
+  text-transform: uppercase;
   cursor: pointer;
   background-color: #00a896;
   color: white;
@@ -56,15 +56,37 @@ img {
 
 #winner {
   background-color: #264653;
-  /* background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
   font-weight: bold;
   font-size: 22px;
 }
 .player-winner {
   background-color: #264653;
-  /* background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
 }
 .player h2 {
   font-size: 33px;
+}
+@media only screen and (max-width: 600px) {
+  .current-score-box {
+    width: 50%;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .current-score-box {
+    width: 50%;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .current-score-box {
+    width: 50%;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .current-score-box {
+    width: 50%;
+    width: 50%;
+  }
 }
